@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Homepage</title>
+</head>
+<body>
+	<table border ="1">
+		<form>
+	    <thead>
+		<tr>
+			
+			<th rowspan="1" colspan="3"><h3>About--110356037</h3></th>
+        
+		</tr>
+		</thead>
+		<thead>
+		<tr>
+			<th rowspan = "3">
+				<img src="https://adultpaintbynumber.com/wp-content/uploads/2020/08/japan-autumn-season-paint-by-number.jpg" width="200" height="160" alt="personal photo">
+				<p>personal photo</p>
+			</th>
+			<th colspan = "6">
+				<p>Name:
+					<input name = "name" type = "text" size = "25" maxlength = "30">
+				</p>
+	    Gender:
+	    	<input type="radio" name="gender">Male
+	    	<input type="radio" name="gender">Female
+	    	<input type="radio" name="gender">Other
+	</th></tr>
+	<tr>
+		<th>County:
+			<select name="county">
+				<option value="Taipei" selected>Taipei</option>
+				<option value="Tainan">Tainan</option>
+				<option value="Taichung">Taichung</option>
+				<option value="Taoyuan">Taoyuan</option>
+			</select></th>
+			<th>Birthday:</th>
+		</tr>
+		<tr>
+			<th rowspan="1" colspan="2">E-mail:
+				<input name = "name" type = "text" size = "25" maxlength = "30">
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Hobby</th>
+			<td rowspan="1" colspan="2">
+				<input type="checkbox">Swimmimg
+				<input type="checkbox">Volleyball
+				<input type="checkbox">Movie
+				<input type="checkbox">Game
+				<input type="checkbox">sleep
+			</td>
+		</tr>
+		<tr>
+			<th>Skill</th>
+			<td rowspan="1" colspan="2">
+				<input type="checkbox">Java
+				<input type="checkbox">HTML
+				<input type="checkbox">Python
+				<input type="checkbox">Microsoft Office
+				<input type="checkbox">Premiere
+			</td>
+		</tr>
+		<tr>
+			<th>Say Something</th>
+			<td rowspan="1" colspan="2">
+				<textarea rows="4" cols="50">Say Something here.
+				</textarea>
+			</td>
+		</tr>
+		<tfoot>
+			<tr>
+				<th rowspan="1" colspan="3">
+                <input type = "submit" value = "提交">
+                <input type = "reset" value = "重設">
+    	    </th>
+    	   </tr> 
+    	</tfoot>
+    	</tbody>
+    
+</form>
+</table>
+
+
+
+	</body>
+</html>
